@@ -14,6 +14,7 @@ let blue = (189);
 
 function setup() {
     var canvas = createCanvas(600, 400);
+    canvas.parent("p5container");
     noStroke();
     changeDirection = false; //boolean value
 }
@@ -345,4 +346,4 @@ rect(255,295,20,20)
 }
  }
    
-}
+
